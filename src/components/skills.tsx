@@ -14,7 +14,7 @@ const SKILLS = [
   },
   {
     category: "Frameworks & Ecosystem",
-    items: ["React", "Next.js", "Vue.js", "Node.js", "Express", "Tailwind CSS"],
+    items: ["React", "Node.js", "Express", "Tailwind CSS"],
   },
   {
     category: "Interactive & WebGL",
@@ -22,7 +22,7 @@ const SKILLS = [
   },
   {
     category: "Tools & Testing",
-    items: ["Git", "Webpack/Vite", "Jest", "Cypress", "Figma", "Docker"],
+    items: ["Git", "Webpack/Vite", "Figma"],
   },
 ];
 
@@ -63,7 +63,7 @@ export function Skills() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           {SKILLS.map((set, index) => (
             <div key={index} className="skill-category">
               <h3 className="text-lg font-semibold text-foreground mb-6 border-b border-zinc-800 pb-2">
