@@ -6,20 +6,24 @@ import gsap from "gsap";
 const SKILLS = [
   {
     category: "Languages & Core",
-    items: ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3/Sass", "Python"]
+    items: ["JavaScript (ES6+)", "HTML5", "CSS3/Sass"],
+  },
+  {
+    category: "CMS & Page Builders",
+    items: ["WordPress", "Elementor", "WPBakery", "Bricks Builder", "Woocommerce"],
   },
   {
     category: "Frameworks & Ecosystem",
-    items: ["React", "Next.js", "Vue.js", "Node.js", "Express", "Tailwind CSS"]
+    items: ["React", "Next.js", "Vue.js", "Node.js", "Express", "Tailwind CSS"],
   },
   {
     category: "Interactive & WebGL",
-    items: ["Three.js", "React Three Fiber", "GSAP", "Framer Motion", "WebGL Shaders"]
+    items: ["Three.js", "React Three Fiber", "GSAP", "Framer Motion"],
   },
   {
     category: "Tools & Testing",
-    items: ["Git", "Webpack/Vite", "Jest", "Cypress", "Figma", "Docker"]
-  }
+    items: ["Git", "Webpack/Vite", "Jest", "Cypress", "Figma", "Docker"],
+  },
 ];
 
 export function Skills() {
