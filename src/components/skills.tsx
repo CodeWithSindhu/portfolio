@@ -17,12 +17,8 @@ const SKILLS = [
     items: ["React", "Node.js", "Tailwind CSS"],
   },
   {
-    category: "Interactive & WebGL",
-    items: ["Three.js", "React Three Fiber", "GSAP", "Framer Motion"],
-  },
-  {
-    category: "Tools & Testing",
-    items: ["Git", "Webpack/Vite", "Figma"],
+    category: "Tools & Libraries",
+    items: ["Git", "Webpack/Vite", "Figma", "GSAP", "Framer Motion"],
   },
 ];
 
