@@ -66,7 +66,7 @@ export function Skills() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           {SKILLS.map((set, index) => (
             <div key={index} className="skill-category">
-              <h3 className="text-lg font-semibold text-foreground mb-6 border-b border-zinc-800 pb-2">
+              <h3 className="text-md font-semibold text-foreground mb-6 border-b border-zinc-800 pb-2">
                 {set.category}
               </h3>
               <ul className="space-y-3">
