@@ -14,7 +14,7 @@ const SKILLS = [
   },
   {
     category: "Frameworks & Ecosystem",
-    items: ["React", "Node.js", "Express", "Tailwind CSS"],
+    items: ["React", "Node.js", "Tailwind CSS"],
   },
   {
     category: "Interactive & WebGL",
